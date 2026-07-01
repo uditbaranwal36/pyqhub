@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PYQ Hub — Previous Year Question Papers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">PYQ</span>
+        <span class="brand-name">Hub</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="browse.html">Browse Papers</a></li>
+        <li><a href="search-results.html">Search</a></li>
+        <li><a href="admin-login.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="hero-eyebrow">Exam season, sorted</span>
+        <h1>Every <em>PYQ</em> your subject has ever asked, in one place.</h1>
+        <p class="hero-sub">Pick your course and semester, find the paper you need, and download it — no signup, no
+          scrolling through random PDFs on five different sites.</p>
+
+        <form class="search-bar" id="heroSearchForm">
+          <input type="text" id="heroSearchInput" placeholder="Try &quot;DBMS&quot; or &quot;BCA301&quot;"
+            aria-label="Search subject or code">
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num" id="statPapers">20</div>
+            <div class="hero-stat-label">Papers listed</div>
+          </div>
+          <div>
+            <div class="hero-stat-num" id="statSubjects">14</div>
+            <div class="hero-stat-label">Subjects</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">4</div>
+            <div class="hero-stat-label">Courses covered</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="paper-stack" aria-hidden="true">
+        <div class="stack-sheet s3"></div>
+        <div class="stack-sheet s2"></div>
+        <div class="stack-sheet s1">
+          <div class="stack-code">CS301 &middot; END SEM 2024</div>
+          <div class="stack-title">Database Management Systems</div>
+          <div class="stack-rule"></div>
+          <div class="stack-line"></div>
+          <div class="stack-line"></div>
+          <div class="stack-line short"></div>
+          <div class="stamp">VERIFIED<br>COPY</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="selector-panel">
+      <form id="quickBrowseForm">
+        <div class="selector-grid">
+          <div class="field">
+            <label for="qCourse">Course</label>
+            <select id="qCourse" required>
+              <option value="">Select course</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="qSemester">Semester</label>
+            <select id="qSemester" required>
+              <option value="">Select semester</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="qSubject">Subject</label>
+            <select id="qSubject" required>
+              <option value="">Select subject</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Find Papers</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-eyebrow">Most reached for</span>
+          <h2>Popular papers right now</h2>
+        </div>
+        <a href="browse.html" class="btn btn-ghost-dark btn-sm">Browse all &rarr;</a>
+      </div>
+      <div class="papers-grid" id="popularGrid"></div>
+    </div>
+  </section>
+
+  <section class="section bg-ink section-tight">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="section-eyebrow" style="color:#D9A130;">How it works</span>
+          <h2>Three steps. No login needed.</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step-card" style="background: rgba(247,243,234,0.06); border-left-color: var(--amber);">
+          <div class="step-num" style="color: var(--amber);">Step 1</div>
+          <h3 style="color: var(--paper);">Pick your subject</h3>
+          <p style="color: rgba(247,243,234,0.7);">Choose your course, semester, and subject from the dropdowns — or
+            just search a subject code.</p>
+        </div>
+        <div class="step-card" style="background: rgba(247,243,234,0.06); border-left-color: var(--amber);">
+          <div class="step-num" style="color: var(--amber);">Step 2</div>
+          <h3 style="color: var(--paper);">Browse past papers</h3>
+          <p style="color: rgba(247,243,234,0.7);">See every year and exam type available, sorted with the most recent
+            first.</p>
+        </div>
+        <div class="step-card" style="background: rgba(247,243,234,0.06); border-left-color: var(--amber);">
+          <div class="step-num" style="color: var(--amber);">Step 3</div>
+          <h3 style="color: var(--paper);">Download and revise</h3>
+          <p style="color: rgba(247,243,234,0.7);">One click downloads the paper. That's it — straight to practising.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">PYQ Hub</div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Site</h4>
+            <a href="index.html">Home</a>
+            <a href="browse.html">Browse Papers</a>
+            <a href="search-results.html">Search</a>
+          </div>
+          <div class="footer-col">
+            <h4>Admin</h4>
+            <a href="admin-login.html">Admin Login</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 PYQ Hub. A student project.</span>
+        <span>Built for exam season survival.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
