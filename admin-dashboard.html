@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard — PYQ Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">PYQ</span>
+      <span class="brand-name">Hub</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="browse.html">Browse Papers</a></li>
+      <li><a href="search-results.html">Search</a></li>
+      <li><a href="#" id="logoutLink">Log out</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-banner">
+  <div class="container" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:16px;">
+    <div>
+      <h1>Admin dashboard</h1>
+      <p>Upload a new previous year question paper to the database.</p>
+    </div>
+    <span class="paper-tag" style="background:rgba(217,161,48,0.18); color:#D9A130;">Signed in as admin</span>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="form-card wide">
+      <span class="section-eyebrow">Upload PYQ</span>
+      <h2>Add a question paper</h2>
+      <p class="form-sub">This form mirrors what <code>UploadServlet.java</code> would receive and insert into the <code>papers</code> table.</p>
+
+      <div id="uploadAlert"></div>
+
+      <form id="uploadForm" class="form-stack">
+        <div class="form-row-2">
+          <div class="field">
+            <label for="uCourse">Course</label>
+            <select id="uCourse" required>
+              <option value="">Select course</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="uSemester">Semester</label>
+            <select id="uSemester" required>
+              <option value="">Select semester</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row-2">
+          <div class="field">
+            <label for="uSubject">Subject name</label>
+            <input type="text" id="uSubject" placeholder="e.g. Database Management Systems" required>
+          </div>
+          <div class="field">
+            <label for="uCode">Subject code</label>
+            <input type="text" id="uCode" placeholder="e.g. CS301" required>
+          </div>
+        </div>
+
+        <div class="form-row-2">
+          <div class="field">
+            <label for="uYear">Year</label>
+            <input type="text" id="uYear" placeholder="e.g. 2025" required>
+          </div>
+          <div class="field">
+            <label for="uExamType">Exam type</label>
+            <select id="uExamType" required>
+              <option value="">Select type</option>
+              <option value="Mid Sem">Mid Sem</option>
+              <option value="End Sem">End Sem</option>
+              <option value="Internal">Internal</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Question paper file (PDF)</label>
+          <div class="file-drop" id="fileDrop">
+            <span id="fileDropLabel">Click to choose a PDF, or drag one here</span>
+            <input type="file" id="uFile" accept="application/pdf">
+            <div class="file-name" id="fileNameDisplay"></div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Upload paper</button>
+      </form>
+    </div>
+
+    <div style="max-width:640px; margin: 36px auto 0;">
+      <div class="section-head" style="margin-bottom:16px;">
+        <h3 style="font-family:var(--font-display); font-size:1.2rem; color:var(--ink);">Recently uploaded (this session)</h3>
+      </div>
+      <div id="recentUploads" class="papers-grid"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">PYQ Hub</div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Site</h4>
+          <a href="index.html">Home</a>
+          <a href="browse.html">Browse Papers</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 PYQ Hub. A student project.</span>
+      <span>Admin tools</span>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
