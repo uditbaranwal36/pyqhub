@@ -83,22 +83,32 @@ const PYQ_DATA = [
   
   // * Semester 4 *
                             /* DBMS */
+  { id: 114, course: "BCA", semester: "4th Sem", subject: "DBMS", code: "BCA402", year: "2025", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA402_DBMS_2025_EndSem_compressed.pdf" },
+  { id: 113, course: "BCA", semester: "4th Sem", subject: "DBMS", code: "BCA402", year: "2024", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA402_DBMS_2024_EndSem_compressed.pdf" },
   { id: 111, course: "BCA", semester: "4th Sem", subject: "DBMS", code: "BCA402", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA402_DBMS_2023_EndSem_compressed.pdf" },
   { id: 112, course: "BCA", semester: "4th Sem", subject: "DBMS", code: "BCA402", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA402_DBMS_2022_EndSem_compressed.pdf" },
 
                             /* Design Analysis of Algorithm */
+  { id: 124, course: "BCA", semester: "4th Sem", subject: "Design Analysis of Algorithm", code: "BCA401", year: "2025", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA401_Design_AA_2025_EndSem_compressed.pdf" },
+  { id: 123, course: "BCA", semester: "4th Sem", subject: "Design Analysis of Algorithm", code: "BCA401", year: "2024", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA401_Design_AA_2024_EndSem_compressed.pdf" },
   { id: 121, course: "BCA", semester: "4th Sem", subject: "Design Analysis of Algorithm", code: "BCA401", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA401_Design_AA_2023_EndSem_compressed.pdf" },
   { id: 122, course: "BCA", semester: "4th Sem", subject: "Design Analysis of Algorithm", code: "BCA401", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA401_Design_AA_2022_EndSem_compressed.pdf" },
   
                             /* Mathematics */
+  { id: 134, course: "BCA", semester: "4th Sem", subject: "Math", code: "BCA403", year: "2025", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA403_Math_2025_EndSem_compressed.pdf" },
+  { id: 133, course: "BCA", semester: "4th Sem", subject: "Math", code: "BCA403", year: "2024", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA403_Math_2024_EndSem_compressed.pdf" },
   { id: 131, course: "BCA", semester: "4th Sem", subject: "Math", code: "BCA403", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA403_Math_2023_EndSem_compressed.pdf" },
   { id: 132, course: "BCA", semester: "4th Sem", subject: "Math", code: "BCA403", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA403_Math_2022_EndSem_compressed.pdf" },
   
                             /* PHP */
+  { id: 144, course: "BCA", semester: "4th Sem", subject: "PHP", code: "BCA404", year: "2025", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA404_PHP_2025_EndSem_compressed.pdf" },
+  { id: 143, course: "BCA", semester: "4th Sem", subject: "PHP", code: "BCA404", year: "2024", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA404_PHP_2024_EndSem_compressed.pdf" },
   { id: 141, course: "BCA", semester: "4th Sem", subject: "PHP", code: "BCA404", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA404_PHP_2023_EndSem_compressed.pdf" },
   { id: 142, course: "BCA", semester: "4th Sem", subject: "PHP", code: "BCA404", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA404_PHP_2022_EndSem_compressed.pdf" },
   
                             /* Software Engineering */
+  { id: 154, course: "BCA", semester: "4th Sem", subject: "Software Engineering", code: "BCA405", year: "2025", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA405_Soft_Eng_2025_EndSem_compressed.pdf" },
+  { id: 153, course: "BCA", semester: "4th Sem", subject: "Software Engineering", code: "BCA405", year: "2024", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA405_Soft_Eng_2024_EndSem_compressed.pdf" },
   { id: 151, course: "BCA", semester: "4th Sem", subject: "Software Engineering", code: "BCA405", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA405_Soft_Eng_2023_EndSem_compressed.pdf" },
   { id: 152, course: "BCA", semester: "4th Sem", subject: "Software Engineering", code: "BCA405", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA405_Soft_Eng_2022_EndSem_compressed.pdf" },
   
