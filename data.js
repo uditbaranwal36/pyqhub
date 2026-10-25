@@ -9,7 +9,6 @@ const PYQ_DATA = [
   { id: 4, course: "BCA", semester: "1st Sem", subject: "Mathematics", code: "BCA103", year: "2024", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA103_Mathematics_2024_EndSem_compressed.pdf" },
   { id: 1, course: "BCA", semester: "1st Sem", subject: "Mathematics", code: "BCA103", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA103_Mathematics_2023_EndSem_compressed.pdf" },
   { id: 2, course: "BCA", semester: "1st Sem", subject: "Mathematics", code: "BCA103", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA103_Mathematics_2022_EndSem_compressed.pdf" },
-  { id: 3, course: "BCA", semester: "1st Sem", subject: "Mathematics", code: "BCA103", year: "2021", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA103_Mathematics_2021_EndSem_compressed.pdf" },
   
   
                             /* Programming in C++ */
@@ -17,15 +16,13 @@ const PYQ_DATA = [
   { id: 14, course: "BCA", semester: "1st Sem", subject: "Programming in C++", code: "BCA101", year: "2024", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA101_Prog_in_C++_2024_EndSem_compressed.pdf" },
   { id: 11, course: "BCA", semester: "1st Sem", subject: "Programming in C++", code: "BCA101", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA101_Prog_in_C++_2023_EndSem_compressed.pdf" },
   { id: 12, course: "BCA", semester: "1st Sem", subject: "Programming in C++", code: "BCA101", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA101_Prog_in_C++_2022_EndSem_compressed.pdf" },
-  { id: 13, course: "BCA", semester: "1st Sem", subject: "Programming in C++", code: "BCA101", year: "2021", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA101_Prog_in_C++_2021_EndSem_compressed.pdf" },
   
                             /* Computer Architecture */
   { id: 25, course: "BCA", semester: "1st Sem", subject: "Computer Architecture", code: "BCA102", year: "2025", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA102_Computer_Architecture_2025_EndSem_compressed.pdf" },
   { id: 24, course: "BCA", semester: "1st Sem", subject: "Computer Architecture", code: "BCA102", year: "2024", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA102_Computer_Architecture_2024_EndSem_compressed.pdf" },
   { id: 21, course: "BCA", semester: "1st Sem", subject: "Computer Architecture", code: "BCA102", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA102_Computer_Architecture_2023_EndSem_compressed.pdf" },
   { id: 22, course: "BCA", semester: "1st Sem", subject: "Computer Architecture", code: "BCA102", year: "2022", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA102_Computer_Architecture_2022_EndSem_compressed.pdf" },
-  { id: 23, course: "BCA", semester: "1st Sem", subject: "Computer Architecture", code: "BCA102", year: "2021", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA102_Computer_Architecture_2021_EndSem_compressed.pdf" },
- 
+  
   // * Semester 2 *
                             /* Java */
   { id: 34, course: "BCA", semester: "2nd Sem", subject: "Java", code: "BCA201", year: "2025", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA201_Java_2025_EndSem_compressed.pdf" },
@@ -51,35 +48,30 @@ const PYQ_DATA = [
   { id: 61, course: "BCA", semester: "3rd Sem", subject: "Software Testing", code: "BCA301", year: "2024", examType: "End Sem", pages: 6, downloads: 482, fileName: "BCA301_Software Testing_2024_EndSem_compressed.pdf" },
   { id: 62, course: "BCA", semester: "3rd Sem", subject: "Software Testing", code: "BCA301", year: "2023", examType: "End Sem", pages: 6, downloads: 651, fileName: "BCA301_Software Testing_2023_EndSem_compressed.pdf" },
   { id: 63, course: "BCA", semester: "3rd Sem", subject: "Software Testing", code: "BCA301", year: "2022", examType: "End Sem", pages: 4, downloads: 219, fileName: "BCA301_Software Testing_2022_EndSem_compressed.pdf" },
-  { id: 64, course: "BCA", semester: "3rd Sem", subject: "Software Testing", code: "BCA301", year: "2021", examType: "End Sem", pages: 4, downloads: 219, fileName: "BCA301_Software Testing_2021_EndSem_compressed.pdf" },
-  
+ 
                             /*Data Structure */
   { id: 75, course: "BCA", semester: "3rd Sem", subject: "Data Structures", code: "BCA302", year: "2025", examType: "End Sem", pages: 5, downloads: 540, fileName: "BCA302_DS_2025_EndSem_compressed.pdf" },
   { id: 71, course: "BCA", semester: "3rd Sem", subject: "Data Structures", code: "BCA302", year: "2024", examType: "End Sem", pages: 5, downloads: 398, fileName: "BCA302_DS_2024_EndSem_compressed.pdf" },
   { id: 72, course: "BCA", semester: "3rd Sem", subject: "Data Structures", code: "BCA302", year: "2023", examType: "End Sem", pages: 5, downloads: 398, fileName: "BCA302_DS_2023_EndSem_compressed.pdf" },
   { id: 73, course: "BCA", semester: "3rd Sem", subject: "Data Structures", code: "BCA302", year: "2022", examType: "End Sem", pages: 5, downloads: 540, fileName: "BCA302_DS_2023_EndSem_compressed.pdf" },
-  { id: 74, course: "BCA", semester: "3rd Sem", subject: "Data Structures", code: "BCA302", year: "2021", examType: "End Sem", pages: 5, downloads: 540, fileName: "BCA302_DS_2021_EndSem_compressed.pdf" },
-
+ 
                             /* Operating System */
   { id: 85, course: "BCA", semester: "3rd Sem", subject: "Operating Systems", code: "BCA303", year: "2025", examType: "End Sem", pages: 6, downloads: 312, fileName: "BCA303_OS_2025_EndSem_compressed.pdf" },
   { id: 81, course: "BCA", semester: "3rd Sem", subject: "Operating Systems", code: "BCA303", year: "2024", examType: "End Sem", pages: 6, downloads: 312, fileName: "BCA303_OS_2024_EndSem_compressed.pdf" },
   { id: 82, course: "BCA", semester: "3rd Sem", subject: "Operating Systems", code: "BCA303", year: "2023", examType: "End Sem", pages: 6, downloads: 312, fileName: "BCA303_OS_2023_EndSem_compressed.pdf" },
   { id: 83, course: "BCA", semester: "3rd Sem", subject: "Operating Systems", code: "BCA303", year: "2022", examType: "End Sem", pages: 6, downloads: 312, fileName: "BCA303_OS_2022_EndSem_compressed.pdf" },
-  { id: 84, course: "BCA", semester: "3rd Sem", subject: "Operating Systems", code: "BCA303", year: "2021", examType: "End Sem", pages: 6, downloads: 312, fileName: "BCA303_OS_2021_EndSem_compressed.pdf" },
 
                             /* Computer Network */
   { id: 95, course: "BCA", semester: "3rd Sem", subject: "Computer Networks", code: "BCA304", year: "2025", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA304_CN_2025_EndSem_compressed.pdf" },
   { id: 91, course: "BCA", semester: "3rd Sem", subject: "Computer Networks", code: "BCA304", year: "2024", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA304_CN_2024_EndSem_compressed.pdf" },
   { id: 92, course: "BCA", semester: "3rd Sem", subject: "Computer Networks", code: "BCA304", year: "2023", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA304_CN_2023_EndSem_compressed.pdf" },
   { id: 93, course: "BCA", semester: "3rd Sem", subject: "Computer Networks", code: "BCA304", year: "2022", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA304_CN_2022_EndSem_compressed.pdf" },
-  { id: 94, course: "BCA", semester: "3rd Sem", subject: "Computer Networks", code: "BCA304", year: "2021", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA304_CN_2021_EndSem_compressed.pdf" },
-
+  
                             /* Mathematics */
   { id: 105, course: "BCA", semester: "3rd Sem", subject: "Mathematics", code: "BCA305", year: "2025", examType: "End Sem", pages: 5, downloads: 323, fileName: "BCA305_M_2025_EndSem_compressed.pdf" },
   { id: 101, course: "BCA", semester: "3rd Sem", subject: "Mathematics", code: "BCA305", year: "2024", examType: "End Sem", pages: 5, downloads: 274, fileName: "BCA305_M_2024_EndSem_compressed.pdf" },
   { id: 102, course: "BCA", semester: "3rd Sem", subject: "Mathematics", code: "BCA305", year: "2023", examType: "End Sem", pages: 5, downloads: 265, fileName: "BCA305_M_2023_EndSem_compressed.pdf" },
   { id: 103, course: "BCA", semester: "3rd Sem", subject: "Mathematics", code: "BCA305", year: "2022", examType: "End Sem", pages: 5, downloads: 234, fileName: "BCA305_M_2022_EndSem_compressed.pdf" },
-  { id: 104, course: "BCA", semester: "3rd Sem", subject: "Mathematics", code: "BCA305", year: "2021", examType: "End Sem", pages: 5, downloads: 323, fileName: "BCA305_M_2021_EndSem_compressed.pdf" },
   
   // * Semester 4 *
                             /* DBMS */
